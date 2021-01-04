@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Ara Winters">
+    <title>Senzing Data Service API</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favico.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="styles/bootstrap/5.0/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- styles specific to this page -->
+    <link href="styles/eval-stack.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <p class="h5 my-0 sz-logo">
+        <a href="https://www.senzing.com/"><img src="images/sz-logo-md.svg" width="168" alt="Senzing" aria-label="Senzing Logo"/></a>
+      </p>
+      <nav class="my-2 my-md-0 me-md-3">
+        <a class="p-2 text-dark" href="https://senzing.com/developer/">Developers</a>
+        <a class="p-2 text-dark" href="https://docs.senzing.com/">Documentation</a>
+        <a class="p-2 text-dark" href="https://senzing.com/pricing/senzing-api/">Pricing</a>
+        <a class="p-2 text-dark" href="https://senzing.zendesk.com/hc/en-us">Help</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="page-title px-3 py-3 pb-md-5 mx-auto text-center">
+        <h1 class="display-5 pb-md-3">Senzing Data Service API</h1>
+        <p class="lead">
+          An entity resolution data service API that stands up in your environment. <br/>
+          No private data flows to Senzing Inc.
+        </p>
+      </div>
+
+      <div id="stack-cards" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 shadow-sm with-recommended-badge"
+            href="https://github.com/Senzing/aws-cloudformation-ecs" onclick="window.location=this.getAttribute(`href`)">
+            <div class="card-header">
+              <h6 class="my-0">AWS Serverless Cloud</h6>
+            </div>
+            <img class="card-img" src="images/stack-aws.png" alt="AWS Logo" aria-label="AWS Serverless Cloud Logo"/>
+            <div class="card-body">
+              Deploy to AWS using ECS and Fargate with <span class="nobr">Aurora Serverless</span> with CloudFormation
+            </div>
+            <div class="card-footer card-recommended">
+              <span class="star-entity">&starf;</span> Recommended
+            </div>
+            <button class="card-footer btn btn-lg btn-primary pt-md-3 pb-md-3" 
+              href="https://github.com/Senzing/aws-cloudformation-ecs" onclick="window.location=this.getAttribute(`href`)">
+              <a >Let's Go</a>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 shadow-sm"
+            href="https://github.com/Senzing/docker-compose-demo" onclick="window.location=this.getAttribute(`href`)">
+            <div class="card-header">
+              <h6 class="my-0">Container-Based</h6>
+            </div>
+            <img class="card-img" src="images/stack-docker.png" alt="Docker Logo"/>
+            <div class="card-body">
+              Deploy using docker-compose.
+            </div>
+            <button class="card-footer btn btn-lg btn-primary pt-md-3 pb-md-3" 
+              href="https://github.com/Senzing/docker-compose-demo" onclick="window.location=this.getAttribute(`href`)">
+              Let's Go
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 shadow-sm"
+          href="https://senzing.zendesk.com/hc/en-us/requests/new" onclick="window.location=this.getAttribute(`href`)">
+            <div class="card-header">
+              <h6 class="my-0">Server</h6>
+            </div>
+            <img class="card-img" src="images/stack-bm.png" alt="Bare Metal Logo"/>
+            <div class="card-body">
+              Deploy a bare-metal install of the Senzing Data Service on-prem or to your data center.
+            </div>
+            <button class="card-footer btn btn-lg btn-primary pt-md-3 pb-md-3" 
+              href="https://senzing.zendesk.com/hc/en-us/requests/new" onclick="window.location=this.getAttribute(`href`)">
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="jumbotron-1" class="jumbotron jumbotron-fluid mt-md-5 mb-md-6">
+      <div class="container pt-md-6 pb-md-6">
+        <p class="display-6">100k records free, stand up your environment &amp; evaluate results today.</p>
+      </div>
+    </div>
+  </body>
+</html>
