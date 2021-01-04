@@ -10,13 +10,17 @@ body {
   font-family: 'Montserrat', 'Roboto', Helvetica, sans-serif;
 }
 
+/* header and navbar related*/
 header {
   height: 140px;
 }
 
 header .sz-logo {
-  padding-left: 1.8rem;
+  padding-left: 3.6rem;
   padding-right: 5rem;
+}
+header .sz-logo img {
+  width: 168px;
 }
 header nav a, header nav a:visited, header nav a:active {
   text-decoration: none;
@@ -45,9 +49,29 @@ header nav a:hover {
 }
 
 /* middle stack cards */
+#stack-cards {
+  min-height: 620px;
+}
 #stack-cards .card {
+  width: 100%;
   border-radius: .75rem;
   border: none;
+  margin-top: .6rem;
+  transition: 
+    width .1s ease-out, 
+    margin-top 0.2s ease-out;
+}
+
+#stack-cards .card:hover {
+  margin-top: 0;
+  width: 102%;
+  cursor: pointer;
+}
+#stack-cards .card:hover .card-body {
+  min-height: 270px;
+}
+#stack-cards .card:hover.with-recommended-badge .card-body {
+  min-height: calc(270px - 2rem - .6rem);
 }
 
 #stack-cards .card-header {
@@ -71,6 +95,7 @@ header nav a:hover {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1.5rem;
+  transition: min-height 0.1s linear;
 }
 #stack-cards .card.with-recommended-badge .card-body {
   min-height: calc(250px - 2rem - .6rem);
@@ -140,4 +165,7 @@ header nav a:hover {
 }
 .pb-md-6 {
   padding-bottom: 4rem !important;
+}
+.mb-md-6 {
+  margin-bottom: 4rem !important;
 }
