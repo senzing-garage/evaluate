@@ -1,0 +1,143 @@
+
+/* breakpoint reflow changes */
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+body {
+  font-family: 'Montserrat', 'Roboto', Helvetica, sans-serif;
+}
+
+header {
+  height: 140px;
+}
+
+header .sz-logo {
+  padding-left: 1.8rem;
+  padding-right: 5rem;
+}
+header nav a, header nav a:visited, header nav a:active {
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* main title element*/
+.page-title h1 {
+  font-weight: 400;
+  font-size: 2.8rem;
+}
+.page-title .lead {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.nobr {
+  white-space: nowrap;
+}
+
+/* middle stack cards */
+#stack-cards .card {
+  border-radius: .75rem;
+  border: none;
+}
+
+#stack-cards .card-header {
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 1.5rem 1rem;
+}
+#stack-cards .card-header h6 {
+  font-weight: 600;
+  font-size: .97rem;
+  letter-spacing: .05rem;
+}
+
+#stack-cards .card-body {
+  min-height: 250px;
+  text-align: left;
+  line-height: 2rem;
+  font-size: 1rem;
+  background-color: #fafafa;
+  color: #28292e;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+}
+#stack-cards .card.with-recommended-badge .card-body {
+  min-height: calc(250px - 2rem - .6rem);
+}
+#stack-cards .card-img {
+  display: block;
+  height: 180px;
+  width: auto;
+  background-color: #252525;
+}
+#stack-cards .card-footer {
+  background-color: #0273d0;
+  text-transform: uppercase;
+  font-size: .95rem;
+  font-weight: 600;
+  letter-spacing: .15rem;
+}
+/* card recommended badge */
+#stack-cards .card-recommended {
+  background-color: #eaeaea;
+  border: none;
+  font-size: .7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: normal;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+}
+#stack-cards .star-entity {
+  color: #ffd305;
+  font-size: 2rem;
+  height: 1rem;
+  line-height: 1rem;
+  margin-right: .5rem;
+  margin-top: -.4rem;
+}
+/* bottom and top rounded corners */
+#stack-cards .card-header:first-child {
+  border-radius: calc(.75rem - 1px) calc(.75rem - 1px) 0 0;
+}
+#stack-cards .card-footer:last-child {
+  border-radius: 0 0 calc(.75rem - 1px) calc(.75rem - 1px);
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* jumbotron related */
+#jumbotron-1 {
+  background-color: #f6f6f6;
+}
+#jumbotron-1 .display-6 {
+  font-weight: 400;
+  font-size: 2.3rem;
+  line-height: 3rem;
+  text-align: center;
+}
+.pt-md-6 {
+  padding-top: 4rem !important;
+}
+.pb-md-6 {
+  padding-bottom: 4rem !important;
+}
