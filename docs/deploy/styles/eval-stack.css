@@ -106,6 +106,9 @@ header nav a:hover {
   width: auto;
   background-color: #252525;
 }
+#stack-cards .card-img-3 {
+  padding: 30px 50px;
+}
 #stack-cards .card-footer {
   background-color: #0273d0;
   text-transform: uppercase;
