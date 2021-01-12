@@ -5,6 +5,47 @@
     font-size: 3.5rem;
   }
 }
+@media (max-width: 767px) {
+  header {
+    align-items: left!important;
+    height: unset!important;
+    padding: 0!important;
+  }
+  header .sz-logo {
+    padding-left: 1rem!important;
+    padding-right: 0!important;
+  }
+  header .sz-logo img {
+    width: 115px!important;
+  }
+  header nav {
+    margin-bottom: 0!important;
+  }
+  .page-title h1 {
+    font-size: 1.8rem !important;
+    white-space: nowrap;
+  }
+  #stack-cards .card-img {
+    height: unset !important;
+    display: inline-block !important;
+    padding: 0 calc(50% - 150px) !important;
+  }
+  #stack-cards .card .card-body {
+    min-height: auto !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  #stack-cards .card:hover {
+    width: unset !important;
+  }
+  header .container-fluid {
+    display: block !important;
+    padding-top: .75rem;
+  }
+  header .navbar-collapse {
+    /*padding-top: 2rem;*/
+  }
+}
 
 body {
   font-family: 'Montserrat', 'Roboto', Helvetica, sans-serif;
@@ -14,13 +55,30 @@ body {
 header {
   height: 140px;
 }
-
+header nav {
+  display: flex;
+  align-items: center;
+}
+header .container-fluid {
+  display: flex;
+}
 header .sz-logo {
-  padding-left: 3.6rem;
-  padding-right: 5rem;
+  padding-left: 3rem;
+  padding-right: 4rem;
 }
 header .sz-logo img {
   width: 168px;
+}
+.navbar-toggler {
+  margin-bottom: 20px;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 header nav a, header nav a:visited, header nav a:active {
   text-decoration: none;
@@ -106,9 +164,10 @@ header nav a:hover {
   width: auto;
   background-color: #252525;
 }
+/*
 #stack-cards .card-img-3 {
   padding: 30px 50px;
-}
+}*/
 #stack-cards .card-footer {
   background-color: #0273d0;
   text-transform: uppercase;
