@@ -88,7 +88,8 @@
       <div id="stack-cards" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
           <div class="card mb-4 shadow-sm with-recommended-badge"
-            href="https://github.com/Senzing/aws-cloudformation-ecs-poc-simple" onclick="window.location=this.getAttribute(`href`)">
+            href="https://github.com/Senzing/aws-cloudformation-ecs-poc-simple" id="deploy-card-aws-cloudformation-ecs-poc"
+               onclick="window.location=this.getAttribute(`href`)">
             <div class="card-header">
               <h6 class="my-0">AWS Serverless Cloud</h6>
             </div>
@@ -100,14 +101,15 @@
               <span class="star-entity">&starf;</span> Recommended
             </div>
             <button class="card-footer btn btn-lg btn-primary pt-md-3 pb-md-3"
-              href="https://github.com/Senzing/aws-cloudformation-ecs-poc-simple" onclick="window.location=this.getAttribute(`href`)">
-              <a >Let's Go</a>
+              href="https://github.com/Senzing/aws-cloudformation-ecs-poc-simple" id="deploy-button-aws-cloudformation-ecs-poc" 
+              onclick="window.location=this.getAttribute(`href`)">
+              <a>Let's Go</a>
             </button>
           </div>
         </div>
         <div class="col">
           <div class="card mb-4 shadow-sm"
-            href="https://github.com/Senzing/docker-compose-demo" onclick="window.location=this.getAttribute(`href`)">
+            href="https://github.com/Senzing/docker-compose-demo" id="deploy-card-docker-compose-demo" onclick="window.location=this.getAttribute(`href`)">
             <div class="card-header">
               <h6 class="my-0">Container-Based</h6>
             </div>
@@ -116,14 +118,14 @@
               Deploy using docker-compose.
             </div>
             <button class="card-footer btn btn-lg btn-primary pt-md-3 pb-md-3"
-              href="https://github.com/Senzing/docker-compose-demo" onclick="window.location=this.getAttribute(`href`)">
+              href="https://github.com/Senzing/docker-compose-demo" id="deploy-button-docker-compose-demo" onclick="window.location=this.getAttribute(`href`)">
               Let's Go
             </button>
           </div>
         </div>
         <div class="col">
           <div class="card mb-4 shadow-sm"
-          href="https://senzing.zendesk.com/hc/en-us/requests/new" onclick="window.location=this.getAttribute(`href`)">
+          href="https://senzing.zendesk.com/hc/en-us/requests/new" id="deploy-card-custom-cloud" onclick="window.location=this.getAttribute(`href`)">
             <div class="card-header">
               <h6 class="my-0">Custom</h6>
             </div>
@@ -132,7 +134,7 @@
               Are you looking to deploy on Azure, Google Cloud, on-prem, or to your data center?
             </div>
             <button class="card-footer btn btn-lg btn-primary pt-md-3 pb-md-3"
-              href="https://senzing.zendesk.com/hc/en-us/requests/new" onclick="window.location=this.getAttribute(`href`)">
+              href="https://senzing.zendesk.com/hc/en-us/requests/new" id="deploy-button-custom-cloud" onclick="window.location=this.getAttribute(`href`)">
               Contact Us
             </button>
           </div>
