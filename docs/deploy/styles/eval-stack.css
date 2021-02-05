@@ -119,6 +119,13 @@ header nav a:hover {
     width .1s ease-out, 
     margin-top 0.2s ease-out;
 }
+/* link underline */
+#stack-cards .card,
+#stack-cards .card:visited,
+#stack-cards .card:hover,
+#stack-cards .card:active {
+  text-decoration: none;
+}
 
 #stack-cards .card:hover {
   margin-top: 0;
@@ -138,6 +145,7 @@ header nav a:hover {
   padding: 1.5rem 1rem;
 }
 #stack-cards .card-header h6 {
+  color: #212529;
   font-weight: 600;
   font-size: .97rem;
   letter-spacing: .05rem;
@@ -177,6 +185,7 @@ header nav a:hover {
 }
 /* card recommended badge */
 #stack-cards .card-recommended {
+  color: #212529;
   background-color: #eaeaea;
   border: none;
   font-size: .7rem;
