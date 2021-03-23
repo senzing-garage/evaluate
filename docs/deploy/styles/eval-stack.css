@@ -90,9 +90,11 @@ header nav a:hover {
 /* main title element*/
 .page-title h1 {
   font-weight: 400;
-  font-size: 2.8rem;
+  font-size: 1.8rem;
 }
 .page-title .lead {
+  display: inline-block;
+  text-align: left;
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 2rem;
@@ -232,6 +234,15 @@ header nav a:hover {
   font-size: 2.3rem;
   line-height: 3rem;
   text-align: center;
+}
+#jumbotron-1 a,
+#jumbotron-1 a:active,
+#jumbotron-1 a:visited {
+  text-decoration: none;
+  color: #212529;
+}
+#jumbotron-1 a:hover {
+  color: #0273d0;
 }
 .pt-md-6 {
   padding-top: 4rem !important;
