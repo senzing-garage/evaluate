@@ -233,6 +233,15 @@ header nav a:hover {
   line-height: 3rem;
   text-align: center;
 }
+#jumbotron-1 a,
+#jumbotron-1 a:active,
+#jumbotron-1 a:visited {
+  text-decoration: none;
+  color: #212529;
+}
+#jumbotron-1 a:hover {
+  color: #0273d0;
+}
 .pt-md-6 {
   padding-top: 4rem !important;
 }
