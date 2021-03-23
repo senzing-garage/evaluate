@@ -239,10 +239,12 @@ header nav a:hover {
 #jumbotron-1 a:active,
 #jumbotron-1 a:visited {
   text-decoration: none;
-  color: #212529;
+  color: #0273d0;
+  /*color: #212529;*/
 }
 #jumbotron-1 a:hover {
-  color: #0273d0;
+  /*color: #0273d0;*/
+  color: #538ee7;
 }
 .pt-md-6 {
   padding-top: 4rem !important;
